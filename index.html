@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - 2do Cuatrimestre - Joaquín Blousson</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-contenido">
+      <div>
+        <h1>Portfolio - Segundo Cuatrimestre</h1>
+        <p>Alumno: Joaquin Blousson</p>
+      </div>
+      <button id="btn-tema" class="btn-tema">🌙 Modo Oscuro</button>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    
+    <div class="controles">
+      <input type="text" id="buscador" placeholder="Buscar trabajo práctico...">
+      
+      <div class="filtros">
+        <button class="btn-filtro activo" data-categoria="todos">Todos</button>
+        <button class="btn-filtro" data-categoria="html-css">HTML, CSS y JS</button>
+        <button class="btn-filtro" data-categoria="js">JS</button>
+      </div>
+    </div>
+
+    <div class="grilla-trabajos" id="grilla">
+
+      <article class="tarjeta" data-categoria="js">
+        <div>
+          <span class="etiqueta">JS</span>
+          <h3>U7 - Ejercicio 1 - El calculo de los snacks</h3>
+        </div>
+        <div class="botones">
+          <a href="https://jblousson-design.github.io/U7---Ejercicio-1---El-Calculo-de-los-snacks/" target="_blank" class="btn-primario">Ver Página</a>
+          <a href="https://github.com/jblousson-design/U7---Ejercicio-1---El-Calculo-de-los-snacks.git" target="_blank" class="btn-secundario">Código</a>
+        </div>
+      </article>
+
+      <article class="tarjeta" data-categoria="js">
+        <div>
+          <span class="etiqueta">JS</span>
+          <h3>U7 - Ejercicio 2 - Presupuesto de viaje</h3>
+        </div>
+        <div class="botones">
+          <a href="https://jblousson-design.github.io/U7---Ejercicio-2---Presupuesto-de-viaje/" target="_blank" class="btn-primario">Ver Página</a>
+          <a href="https://github.com/jblousson-design/U7---Ejercicio-2---Presupuesto-de-viaje.git" target="_blank" class="btn-secundario">Código</a>
+        </div>
+      </article>
+
+      <article class="tarjeta" data-categoria="js">
+        <div>
+          <span class="etiqueta">JS</span>
+          <h3>U8 - ¿Puedo jubilarme?</h3>
+        </div>
+        <div class="botones">
+          <a href="https://jblousson-design.github.io/jubilarse/" target="_blank" class="btn-primario">Ver Página</a>
+          <a href="https://github.com/jblousson-design/jubilarse.git" target="_blank" class="btn-secundario">Código</a>
+        </div>
+      </article>
+
+      <article class="tarjeta" data-categoria="js">
+        <div>
+          <span class="etiqueta">JS</span>
+          <h3>U9 - Torneo algorítmico</h3>
+        </div>
+        <div class="botones">
+          <a href="https://jblousson-design.github.io/Torneo-algoritmico/" target="_blank" class="btn-primario">Ver Página</a>
+          <a href="https://github.com/jblousson-design/Torneo-algoritmico.git" target="_blank" class="btn-secundario">Código</a>
+        </div>
+      </article>
+        
+       <article class="tarjeta" data-categoria="js">
+        <div>
+          <span class="etiqueta">JS</span>
+          <h3>Lista de super</h3>
+        </div>
+        <div class="botones">
+          <a href="https://jblousson-design.github.io/Blousson-lista-de-super-/" target="_blank" class="btn-primario">Ver Página</a>
+          <a href="https://github.com/jblousson-design/Blousson-lista-de-super-.git" target="_blank" class="btn-secundario">Código</a>
+        </div>
+      </article>
+
+       <article class="tarjeta" data-categoria="html, css y js">
+        <div>
+          <span class="etiqueta">HTML, CSS & JS</span>
+          <h3>U14 - Color Game Project</h3>
+        </div>
+        <div class="botones">
+          <a href="https://jblousson-design.github.io/U14-Color-Game-Project-Joaquin-Blousson/" target="_blank" class="btn-primario">Ver Página</a>
+          <a href="https://github.com/jblousson-design/U14-Color-Game-Project-Joaquin-Blousson.git" target="_blank" class="btn-secundario">Código</a>
+        </div>
+      </article>
+
+    </div>
+
+    <p id="mensaje-vacio" class="oculto">No se encontraron trabajos con ese nombre</p>
+
+  </main>
+
+  <footer>
+    <p>Segundo Cuatrimestre 2026</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
